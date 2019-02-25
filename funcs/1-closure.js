@@ -1,5 +1,9 @@
 'use strict';
 
+/**
+ * Фабрика функций через замыкание
+ */
+
 const log = function (base, n) {
 	return Math.log(n) / Math.log(base);
 };

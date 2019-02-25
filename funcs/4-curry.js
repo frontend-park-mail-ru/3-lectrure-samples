@@ -1,5 +1,8 @@
 'use strict';
 
+/**
+ * Каррирование
+ */
 const curry = fn => (...args) => {
 	if (fn.length > args.length) {
 		const f = fn.bind(null, ...args);

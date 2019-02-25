@@ -1,5 +1,9 @@
 'use strict';
 
+/**
+ * Приватность и инкапсуляция через замыкания
+ */
+
 const Counter = function () {
 	let privateValue = 0;
 

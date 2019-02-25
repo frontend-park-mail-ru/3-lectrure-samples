@@ -1,5 +1,9 @@
 'use strict';
 
+/**
+ * rest-оператор
+ */
+
 const f1 = (...args) => {
 	console.log(args);
 };

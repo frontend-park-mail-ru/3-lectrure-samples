@@ -1,5 +1,9 @@
 'use strict';
 
+/**
+ * Функции – методы объекта
+ */
+
 const obj1 = {
 	fn1: function inc(a) {
 		return ++a;

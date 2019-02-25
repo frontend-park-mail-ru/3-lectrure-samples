@@ -1,5 +1,9 @@
 'use strict';
 
+/**
+ * Ещё вариант создания функций
+ */
+
 const sum = new Function('a, b', 'return a + b');
 
 console.dir({

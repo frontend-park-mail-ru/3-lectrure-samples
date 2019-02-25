@@ -1,5 +1,9 @@
 'use strict';
 
+/**
+ * Работа с this; Стрелочные функции
+ */
+
 const Person = function () {
 	this.name = 'Sergey';
 

@@ -1,5 +1,9 @@
 'use strict';
 
+/**
+ * Область видимости функций
+ */
+
 const cities = ['Athens', 'Roma', 'London', 'Beijing', 'Kiev', 'Riga'];
 const f = function (s) {
 	return s.length;

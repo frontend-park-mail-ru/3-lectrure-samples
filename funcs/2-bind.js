@@ -1,5 +1,9 @@
 'use strict';
 
+/**
+ * Частичное применение через bind
+ */
+
 const log = function (base, n) {
 	return Math.log(n) / Math.log(base);
 };

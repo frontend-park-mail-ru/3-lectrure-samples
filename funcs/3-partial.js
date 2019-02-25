@@ -1,8 +1,10 @@
 'use strict';
 
+/**
+ * Частичное применение
+ */
 const partial = (fn, ...args) => (...rest) => fn(...args.concat(rest));
 
-// Usage
 
 const sum4 = (a, b, c, d) => (a + b + c + d);
 

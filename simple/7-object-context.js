@@ -1,3 +1,8 @@
+'use strict';
+
+/**
+ * Объектный контекст функций
+ */
 
 const obj = {
 	someValue: 5,

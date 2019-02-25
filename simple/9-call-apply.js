@@ -1,5 +1,9 @@
 'use strict';
 
+/**
+ * Function.prototype.call и Function.prototype.apply
+ */
+
 function f1(a, b) {
 	console.log('f1(' + a + ', ' + b + ')');
 }
